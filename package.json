@@ -1,14 +1,27 @@
 {
-  "name": "movie-flex-master",
+  "name": "movie-flex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "axios": "^0.21.1",
+    "eslint-config-imweb": "^1.0.1",
+    "movie-trailer": "^2.0.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hook-use-state": "^1.1.0",
+    "react-redux": "^7.2.2",
+    "react-responsive-modal": "^6.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-slick": "^0.28.0",
+    "react-switch": "^6.0.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "usestate": "^1.1.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -34,5 +47,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "gh-pages": "^3.1.0",
+    "react-app-rewired": "^2.1.8"
   }
 }
