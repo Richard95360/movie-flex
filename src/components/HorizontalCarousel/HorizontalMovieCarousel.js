@@ -8,6 +8,7 @@ export default function HorizontalMovieCarousel(props) {
   const { carouselName, movies } = props;
 
   const handleGenreName = genreId => {
+    
     let mainGenre = "";
     if (props.genre) {
       props.genre.map(genre => {
@@ -64,6 +65,7 @@ export default function HorizontalMovieCarousel(props) {
   const path = "https://image.tmdb.org/t/p/";
   const imgSize = "w154";
   return (
+    
     <React.Fragment>
       <h3 className="carousel-title">{carouselName}</h3>
       <Slider {...settings}>
