@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="container">
         <div className="grid-footer">
           <div className="copyright">
-            <a className="copyright-name" href="https://yog9.github.io/portfolio">Portfolio</a>
-            <p className="copyright-para">Coded and designed by Yogita Verma</p>
+            <a className="copyright-name" href="#region ">Portfolio</a>
+            <p className="copyright-para">Coded and designed by Haddad richard</p>
           </div>
           <img
             className="footer-img"
