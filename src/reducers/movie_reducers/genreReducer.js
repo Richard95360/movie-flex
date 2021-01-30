@@ -4,7 +4,7 @@ const initialState = {
   genre: [],
   loading: true
 };
-export default (state = initialState, action) => {
+export default function genreReducer (state = initialState, action) {
   switch (action.type) {
     case GET_GENRE:
       return {

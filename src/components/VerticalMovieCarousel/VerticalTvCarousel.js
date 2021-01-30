@@ -38,9 +38,9 @@ export default function VerticalTvCarousel(props) {
                                 <div className="container desc_now_playing">
                                     <h4 className="carousel-title-now-playing">AIRING TODAY</h4>
                                     <h2 className="movie">{tvshow.name}</h2>
-                                    {tvshow.genre_ids.map(genre => {
+                                    {tvshow.genre_ids.forEach(genre => {
                                         //console.log(props.genre);
-                                        props.genre.map(genre_api => {
+                                        props.genre.forEach(genre_api => {
                                             if (genre_api.id === genre) {
                                                 return (x = genre_api.name);
                                             }

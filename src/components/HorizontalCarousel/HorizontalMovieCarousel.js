@@ -11,7 +11,7 @@ export default function HorizontalMovieCarousel(props) {
     
     let mainGenre = "";
     if (props.genre) {
-      props.genre.map(genre => {
+      props.genre.forEach(genre => {
         if (genreId === genre.id) mainGenre = genre.name;
       });
     }

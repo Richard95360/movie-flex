@@ -7,7 +7,7 @@ export default function HorizontalTvCarousel(props) {
     const handleGenreName = genreId => {
         let mainGenre = "";
         if (genre) {
-            genre.map(genre => {
+            genre.forEach(genre => {
                 if (genreId === genre.id) mainGenre = genre.name;
             });
         }

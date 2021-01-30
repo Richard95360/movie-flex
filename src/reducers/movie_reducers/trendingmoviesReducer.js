@@ -2,7 +2,7 @@ import { GET_TRENDING_MOVIES } from "../../actions/types";
 const initialState = {
   trendingMovies: []
 };
-export default (state = initialState, action) => {
+export default function trendingMoviesReducer (state = initialState, action)  {
   switch (action.type) {
     case GET_TRENDING_MOVIES:
       return {

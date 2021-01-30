@@ -2,7 +2,7 @@ import { GET_RECOMMENDED_MOVIES } from "../../actions/types";
 const initialState = {
   recommendedMovies: []
 };
-export default (state = initialState, action) => {
+export default function recommendedMoviesReducer (state = initialState, action) {
   switch (action.type) {
     case GET_RECOMMENDED_MOVIES:
       return {

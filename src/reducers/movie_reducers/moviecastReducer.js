@@ -2,7 +2,7 @@ import { GET_MOVIE_CASTS } from "../../actions/types";
 const initialState = {
   moviecasts: []
 };
-export default (state = initialState, action) => {
+export default function moviecastReducer (state = initialState, action)  {
   switch (action.type) {
     case GET_MOVIE_CASTS:
       return {

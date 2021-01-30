@@ -2,7 +2,7 @@ import { GET_POPULAR_TVSHOWS } from "../../actions/types";
 const initialState = {
     popularTvshows: []
 };
-export default (state = initialState, action) => {
+export default function popularTvshowsReducer (state = initialState, action) {
     switch (action.type) {
         case GET_POPULAR_TVSHOWS:
             return {
